@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class CarsController {
 
     @GetMapping("/cars")
-    public String carsForSale () {
-        return "/cars";
+    public String carsForSale() {
+        return "cars"; // Без слэша
     }
 }
