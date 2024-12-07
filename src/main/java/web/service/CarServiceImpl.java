@@ -31,6 +31,6 @@ public class CarServiceImpl implements CarService {
 
     @Override
     public List<Car> byCount(int count) {
-        return carList.subList(0, Math.min(count, carList.size()));
+        return carList.subList(0, count);
     }
 }
